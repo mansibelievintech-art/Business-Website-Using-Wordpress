@@ -1,4 +1,4 @@
-# Nexora Digital — WordPress internship project
+# Nexora Digital — WordPress
 
 ## Local site
 
