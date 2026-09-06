@@ -1,0 +1,1 @@
+<?php get_header();?><article class="section article"><?php while(have_posts()):the_post();?><p class="eyebrow"><?php echo get_the_date('F j, Y');?></p><h1 class="h2"><?php the_title();?></h1><div class="lead"><?php the_excerpt();?></div><?php the_content();?><?php endwhile;?></article><?php get_footer();?>

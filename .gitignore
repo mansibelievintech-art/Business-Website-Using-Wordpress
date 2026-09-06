@@ -1,0 +1,18 @@
+# Local development logs and runtime artifacts
+server.log
+server-error.log
+.wordpress-playground/
+
+# Third-party WordPress packages should be installed from wordpress.org
+wp-content/plugins/*
+!wp-content/plugins/nexora-seeder/
+!wp-content/plugins/nexora-seeder/**
+wp-content/themes/*
+!wp-content/themes/nexora-theme/
+!wp-content/themes/nexora-theme/**
+
+# Operating system and editor metadata
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
